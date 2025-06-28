@@ -1,0 +1,56 @@
+# Maven build output
+target/
+**/target/
+
+# Eclipse & IntelliJ project files
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.class
+*.swp
+*~
+
+# Build tools
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Generated files
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# IntelliJ-specific
+.idea/
+*.iml
+*.iws
+
+# Java language server
+.project
+.classpath
+.settings/
+
+# VS Code (if used)
+.vscode/
+
+# Coverage reports (Jacoco, etc.)
+coverage/
+*.ec
+*.exec
+
+# Test reports
+surefire-reports/
+failsafe-reports/
