@@ -1,0 +1,36 @@
+- mvn archetype:generate -DgroupId=com.utkarsh -DartifactId=design_patterns_and_systems -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- remove src/*
+- in pom, add packaging as pom
+- remove dependencies
+- move pom to root, and remove the empty folder
+- mvn archetype:generate -DgroupId=com.utkarsh -DartifactId=design_patterns -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- remove src
+- from pom:
+    * remove version
+    * remove dependencies
+    * add packaging as pom
+- cd design_patterns
+- mvn archetype:generate -DgroupId=com.utkarsh.design_patterns -DartifactId=creational -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- remove src
+- from pom:
+    * remove version
+    * remove dependencies
+    * add packaging as pom
+- cd creational/
+- "it is my choice here to not change the groupId while creating singleton" (logical separation rather than modular separation)", hence command is...
+- mvn archetype:generate -DgroupId=com.utkarsh.design_patterns -DartifactId=singleton -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- from pom:
+    * remove version
+
+- Now to create new submodule, say structural/adapter in design_patterns:
+- cd design_patterns/
+- mvn archetype:generate -DgroupId=com.utkarsh.design_patterns -DartifactId=structural -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- remove src
+- do the 3 things for pom as mentioned above
+- cd structural/
+- mvn archetype:generate -DgroupId=com.utkarsh.design_patterns -DartifactId=adapter -DarchetypeArtifactId=maven-archetype-quickstart   -DinteractiveMode=false
+- from adapter/pom.xml:
+    * remove version
+
+
+    
