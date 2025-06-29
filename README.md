@@ -10,8 +10,7 @@ A curated, modular, and executable collection of Java-based Low-Level Design (LL
 ```
 design_patterns_and_systems/
 ├── design_patterns/          # Patterns categorized into creational, structural, behavioral
-├── system_designs/           # Real-world system implementations
-├── utils/                    # Reusable helpers/utilities
+├── shared                    # Reusable helpers/utilities
 ├── .gitignore                # Files to be ignored by git
 ├── CMD_LOG.txt               # commands which are run in console to have an impact on repository
 ├── LICENSE                   # MIT license
