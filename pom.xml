@@ -12,5 +12,6 @@
   </properties>
   <modules>
     <module>design_patterns</module>
+    <module>shared</module>
   </modules>
 </project>
